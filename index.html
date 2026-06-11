@@ -21,12 +21,19 @@
 
     <main>
         <section id="home" class="hero section">
-            <div>
+            <div class="hero-text">
                 <p class="intro">Hello, my name is</p>
                 <h1>Justin Lance Hidalgo</h1>
                 <p class="subtitle">Computer Science Student</p>
                 <p>I am interested in software development, web design, databases, and problem solving.</p>
-                <a class="button" href="#projects">View Projects</a>
+                <div class="hero-buttons">
+                    <a class="button" href="#projects">View Projects</a>
+                    <a class="button secondary" href="resume/Justin_Hidalgo_Resume.pdf">Resume</a>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <img src="images/justin.svg" alt="Justin picture">
             </div>
         </section>
 
@@ -44,17 +51,38 @@
                 <span>Java</span>
                 <span>C++</span>
                 <span>SQL</span>
+                <span>GitHub</span>
+                <span>Database Design</span>
             </div>
         </section>
 
         <section id="projects" class="section">
             <h2>Projects</h2>
-            <p>This section will include my class projects and personal work.</p>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Restaurant Database Project</h3>
+                    <p>A database project for tracking dishes, ingredients, nutrition information, customer orders, and delivery batches.</p>
+                    <p class="tools">SQL, MySQL, ER Diagrams</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Huffman Coding Project</h3>
+                    <p>A Java project that uses character counts, linked lists, and binary trees to create Huffman codes.</p>
+                    <p class="tools">Java, Trees, File Input</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Hash Table Project</h3>
+                    <p>A Java project that stores and searches data using a hash function and separate chaining.</p>
+                    <p class="tools">Java, Hashing, Data Structures</p>
+                </article>
+            </div>
         </section>
 
         <section id="contact" class="section">
             <h2>Contact</h2>
             <p>Email: jushten2@gmail.com</p>
+            <p>GitHub: github.com/ijushten</p>
         </section>
     </main>
 
