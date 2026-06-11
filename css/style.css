@@ -222,6 +222,17 @@ h3 {
     cursor: pointer;
 }
 
+
+.contact-link {
+    color: #1f4ed8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
 #formMessage,
 #meetingMessage {
     font-weight: bold;
