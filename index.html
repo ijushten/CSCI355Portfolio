@@ -15,6 +15,7 @@
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
+                <a href="#schedule">Schedule</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -78,6 +79,63 @@
                     <p>A Java project that stores and searches data using a hash function and separate chaining.</p>
                     <p class="tools">Java, Hashing, Data Structures</p>
                 </article>
+            </div>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>Want to talk online? Schedule a meeting</h2>
+            <p>Choose a date and time that works for you, then send a short request with your contact information.</p>
+
+            <div class="schedule-card">
+                <form id="meetingForm" class="meeting-form">
+                    <div class="form-row">
+                        <div>
+                            <label for="meetingName">Name</label>
+                            <input type="text" id="meetingName" name="meetingName" placeholder="OG Anunoby">
+                        </div>
+
+                        <div>
+                            <label for="meetingEmail">Email</label>
+                            <input type="email" id="meetingEmail" name="meetingEmail" placeholder="og.anunoby@gmail.com">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div>
+                            <label for="meetingDate">Meeting Date</label>
+                            <input type="date" id="meetingDate" name="meetingDate">
+                        </div>
+
+                        <div>
+                            <label for="meetingTime">Meeting Time</label>
+                            <select id="meetingTime" name="meetingTime">
+                                <option value="">Select a time</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                                <option value="6:00 PM">6:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="meetingPlatform">Preferred Online Platform</label>
+                    <select id="meetingPlatform" name="meetingPlatform">
+                        <option value="">Select a platform</option>
+                        <option value="Google Meet">Google Meet</option>
+                        <option value="Zoom">Zoom</option>
+                        <option value="Microsoft Teams">Microsoft Teams</option>
+                    </select>
+
+                    <label for="meetingTopic">What would you like to talk about?</label>
+                    <input type="text" id="meetingTopic" name="meetingTopic" placeholder="Portfolio project, internship, or collaboration">
+
+                    <label for="meetingNotes">Extra Details</label>
+                    <textarea id="meetingNotes" name="meetingNotes" rows="4" placeholder="Add anything I should know before the meeting."></textarea>
+
+                    <button type="submit">Request Meeting</button>
+                    <p id="meetingMessage"></p>
+                </form>
             </div>
         </section>
 
