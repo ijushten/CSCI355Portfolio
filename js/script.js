@@ -1,5 +1,11 @@
+const menuButton = document.getElementById("menuButton");
+const navLinks = document.getElementById("navLinks");
 const contactForm = document.getElementById("contactForm");
 const formMessage = document.getElementById("formMessage");
+
+menuButton.addEventListener("click", function() {
+    navLinks.classList.toggle("show");
+});
 
 contactForm.addEventListener("submit", function(event) {
     event.preventDefault();
