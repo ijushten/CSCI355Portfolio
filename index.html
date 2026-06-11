@@ -33,7 +33,7 @@
             </div>
 
             <div class="profile-card">
-                <img src="images/justin.svg" alt="Justin picture">
+                <img src="justin.svg" alt="Justin Picture">
             </div>
         </section>
 
@@ -83,11 +83,27 @@
             <h2>Contact</h2>
             <p>Email: jushten2@gmail.com</p>
             <p>GitHub: github.com/ijushten</p>
+
+            <form id="contactForm" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <button type="submit">Send Message</button>
+                <p id="formMessage"></p>
+            </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Justin Lance Hidalgo</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

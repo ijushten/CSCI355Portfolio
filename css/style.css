@@ -147,6 +147,36 @@ h3 {
     font-weight: bold;
 }
 
+.contact-form {
+    max-width: 520px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font: inherit;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form button {
+    width: fit-content;
+    padding: 12px 18px;
+    background: #1f4ed8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#formMessage {
+    font-weight: bold;
+}
+
 footer {
     text-align: center;
     padding: 24px;
